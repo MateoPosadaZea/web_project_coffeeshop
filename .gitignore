@@ -47,30 +47,4 @@ pnpm-lock.yaml
 public/
 
 # --- WordPress / PHP ---
-wp-content/uploads/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/ai1wm-backups/
-wp-content/backups-*/
-wp-content/debug.log
-# If using Composer vendor:
-vendor/
-composer.lock
-
-# --- Editors & IDEs ---
-# VS Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
-!.vscode/tasks.json
-!.vscode/launch.json
-# JetBrains
-.idea/
-*.iml
-
-# --- OS / system junk ---
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon?
-ehthumb
+# Ignore vendor conte
