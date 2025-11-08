@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+bower_components/
+vendor/
+
+# Builds & outputs
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.vercel/
+.netlify/
+public/
+coverage/
+.storybook-static/
+storybook-static/
+.tmp/
+.cache/
+.parcel-cache/
+.pnpm-store/
+
+# Logs & env
+*.log
+npm-debug.log*
+yarn-*.log*
+pnpm-debug.log*
+.env
+.env.*
+
+# WordPress (generated/content)
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Tests (artifacts)
+cypress/videos/
+cypress/screenshots/
+
+# Maps & minified (keep as-is)
+**/*.map
+**/*.min.*
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large binaries/archives (not for Prettier)
+*.psd
+*.ai
+*.sketch
+*.xd
+*.zip
+*.tar
+*.tar.gz
+*.rar
