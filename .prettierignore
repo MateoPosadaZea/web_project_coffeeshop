@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# build/output (if you add any later)
+dist/
+build/
+
+# third-party stuff (don’t reformat it)
+vendor/
+
+# coverage (if you ever run tests)
+coverage/
