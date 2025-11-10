@@ -1,0 +1,36 @@
+@import url(../pages/index.css);
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__links {
+  display: flex;
+  justify-items: flex-end;
+  list-style-type: none;
+  gap: 20px;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  list-style: none;
+  margin-left: 40px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav__logo {
+  width: 105px;
+  height: 39px;
+  margin-bottom: 183px;
+}
